@@ -1,15 +1,18 @@
 import React from "react";
 
-// use these variables in your JSX (update them with your own name and city)
 const name = "Liza";
 const city = "New York";
 
 function Home() {
-  // update the JSX being returned!
-  return <div>Home</div>;
+  return (
+    <div id="home">
+      <h1 style={{ color: "firebrick" }}>
+        {name} is a Web Developer from {city}
+      </h1>
+    </div>
+  );
 }
 
 export default Home;
 
-// this export is needed for the tests!
 export { name, city };
