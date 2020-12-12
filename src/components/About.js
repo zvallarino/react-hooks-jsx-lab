@@ -1,6 +1,5 @@
 import React from "react";
-
-const image = "https://i.imgur.com/mV8PQxj.gif";
+import { image } from "../data/data";
 
 function About() {
   return (
@@ -13,5 +12,3 @@ function About() {
 }
 
 export default About;
-
-export { image };

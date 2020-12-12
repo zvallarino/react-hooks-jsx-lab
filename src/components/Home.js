@@ -1,7 +1,5 @@
 import React from "react";
-
-const name = "Liza";
-const city = "New York";
+import { name, city } from "../data/data";
 
 function Home() {
   return (
@@ -14,5 +12,3 @@ function Home() {
 }
 
 export default Home;
-
-export { name, city };
